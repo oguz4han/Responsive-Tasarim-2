@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+}
+.post{
+    width: 47%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.post img{
+    height: 280px;
+    width: 100%;
+}
+.post h2{
+    margin: 0;
+    padding: 0 10px;
+}
+
+@media screen and (max-width:680px)
+{
+    .post{
+        width: 96%;
+        margin: 2%;
+    }
+}
